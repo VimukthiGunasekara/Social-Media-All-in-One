@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#46b19f"
+    tools:context="com.vimukthisadaruwan65gmail.testing.Main2Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/wal" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+
+        >
+
+
+        <ImageButton
+            android:id="@+id/imageButtonfacebook"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+
+            app:srcCompat="@drawable/fb" />
+
+        <ImageButton
+            android:id="@+id/imagetwitter"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+
+            app:srcCompat="@drawable/twitte" />
+
+        <ImageButton
+            android:id="@+id/imagelinkedin"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_column="0"
+            android:layout_row="1"
+
+            app:srcCompat="@drawable/inster" />
+
+        <ImageButton
+            android:id="@+id/imageinster"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_column="1"
+            android:layout_row="1"
+
+            app:srcCompat="@drawable/g" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_column="2"
+            android:layout_row="0"
+
+            app:srcCompat="@drawable/linkedin" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_column="2"
+            android:layout_row="1"
+
+            app:srcCompat="@drawable/bloger" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_column="0"
+            android:layout_row="2"
+
+            app:srcCompat="@drawable/wordpress" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_column="1"
+            android:layout_row="2"
+
+            app:srcCompat="@drawable/youtube" />
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_column="2"
+            android:layout_row="2"
+
+            app:srcCompat="@drawable/dd" />
+
+    </GridLayout>
+
+</LinearLayout>
